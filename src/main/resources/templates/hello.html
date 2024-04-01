@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'안녕하세요. ' + ${data}">안녕하세요. 손님</p>  <!-- hello메소드의 data를 호출해서 value(hello!!) 치환
+                                                                model.addAttribute("data", "hello!!")-->
+</body>
+</html>
